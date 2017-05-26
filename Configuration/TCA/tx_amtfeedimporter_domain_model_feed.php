@@ -29,7 +29,7 @@ $GLOBALS['TCA']['tx_amtfeedimporter_domain_model_feed'] = array(
 			override_edited_news, hide_imported_news, categories, author, author_email, news_language, custom_mapping, social_feed',
 	),
 	'types' => array(
-		'1' => array('showitem' => 'name, type, feed_url, target_folder, news_type, news_language, override_edited_news, hide_imported_news, 
+		'1' => array('showitem' => 'sys_language_uid,name, type, feed_url, target_folder, news_type, news_language, override_edited_news, hide_imported_news, 
 			--div--;LLL:EXT:amt_feed_importer/Resources/Private/Language/locallang_ttc.xlf:tabs.defaults, categories, author, author_email,
 			--div--;LLL:EXT:amt_feed_importer/Resources/Private/Language/locallang_ttc.xlf:tabs.additional, custom_mapping, social_feed,
 			--div--;LLL:EXT:cms/locallang_ttc.xlf:tabs.access, hidden, starttime, endtime'),
