@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-12-30T07:53:39Z" product-name="amt_feed_importer">
+		<header/>
+		<body>
+			<trans-unit id="tx_amtfeedimporter_domain_model_feed">
+				<source>Feed</source>
+			</trans-unit>
+			<trans-unit id="tx_amtfeedimporter_domain_model_feed.name">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_amtfeedimporter_domain_model_feed.type">
+				<source>Type</source>
+			</trans-unit>
+			<trans-unit id="tx_amtfeedimporter_domain_model_feed.type.I.0">
+				<source>RSS2</source>
+			</trans-unit>
+			<trans-unit id="tx_amtfeedimporter_domain_model_feed.type.I.1">
+				<source>Atom</source>
+			</trans-unit>
+			<trans-unit id="tx_amtfeedimporter_domain_model_feed.feed_url">
+				<source>Feed URL</source>
+			</trans-unit>
+			<trans-unit id="tx_amtfeedimporter_domain_model_feed.target_folder">
+				<source>Target folder</source>
+			</trans-unit>
+			<trans-unit id="tx_amtfeedimporter_domain_model_feed.news_type">
+				<source>News type</source>
+			</trans-unit>
+			<trans-unit id="tx_amtfeedimporter_domain_model_feed.override_edited_news">
+				<source>Override edited news</source>
+			</trans-unit>
+			<trans-unit id="tx_amtfeedimporter_domain_model_feed.hide_imported_news">
+				<source>Hide imported news</source>
+			</trans-unit>
+			<trans-unit id="tx_amtfeedimporter_domain_model_feed.categories">
+				<source>Detault categories</source>
+			</trans-unit>
+			<trans-unit id="tx_amtfeedimporter_domain_model_feed.author">
+				<source>Default author</source>
+			</trans-unit>
+			<trans-unit id="tx_amtfeedimporter_domain_model_feed.author_email">
+				<source>Default author email</source>
+			</trans-unit>
+			<trans-unit id="tx_amtfeedimporter_domain_model_feed.news_language">
+				<source>News language</source>
+			</trans-unit>
+			<trans-unit id="tx_amtfeedimporter_domain_model_feed.custom_mapping">
+				<source>Custom mapping</source>
+			</trans-unit>
+            <trans-unit id="tx_amtfeedimporter_domain_model_feed.social_feed">
+                <source>Social feed</source>
+            </trans-unit>
+			<trans-unit id="tx_news_domain_model_news.amt_feedimporter_guid">
+				<source>Feed guid</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-12-30T07:53:39Z" product-name="amt_feed_importer">
+		<header/>
+		<body>
+			<trans-unit id="tabs.defaults">
+				<source>Defaults</source>
+			</trans-unit>
+			<trans-unit id="tabs.feed_importer">
+				<source>Feed Importer</source>
+			</trans-unit>
+			<trans-unit id="tabs.additional">
+				<source>Additional</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

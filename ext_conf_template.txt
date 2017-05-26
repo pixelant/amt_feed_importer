@@ -1,0 +1,2 @@
+#cat=advanced//a; type=string; label=LLL:EXT:amt_feed_importer/Resources/Private/Language/locallang.xlf:amt_feed_importer.ext_configuration.edited_fields_list
+editedFieldsList = title,teaser,bodytext,datetime
