@@ -1,0 +1,18 @@
+{
+  "name": "amt/amt-feed-importer",
+  "type": "typo3-cms-extension",
+  "description": "Extension to import news from feeds (e.g. RSS2, Atom, etc). Fast and simple configuration which is quite similar to configuration rss2_import",
+  "require": {
+    "php" : ">=5.5",
+    "typo3/cms-core": ">=7.6,<8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "AMT\\AmtFeedImporter\\": "Classes/"
+    }
+  },
+  "replace": {
+    "amt_feed_importer": "self.version",
+    "typo3-ter/amt-feed-importer": "self.version"
+  }
+}
