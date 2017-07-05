@@ -4,7 +4,7 @@
   "description": "Extension to import news from feeds (e.g. RSS2, Atom, etc). Fast and simple configuration which is quite similar to configuration rss2_import",
   "require": {
     "php" : ">=5.5",
-    "typo3/cms-core": ">=7.6,<8.0"
+    "typo3/cms-core": ">=7.6,<=8.7"
   },
   "autoload": {
     "psr-4": {
