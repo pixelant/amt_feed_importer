@@ -80,7 +80,7 @@ class RSS2ImportJob implements \AMT\AmtFeedImporter\Job\FeedImportJobInterface {
 		foreach ($newsArray as $newsItem) {
 			$importedNewsCollection = \TYPO3\CMS\Backend\Utility\BackendUtility::getRecordsByField('tx_news_domain_model_news', 'amt_feedimporter_guid', 
 					$newsItem['amt_feedimporter_guid']);
-			
+			if (empty($importedNewsCollection)) $importedNewsCollection = null;
 			if (!is_array($importedNewsCollection)) {
 				$importedNews = array();
 				$importedNews['amt_feedimporter_guid'] = $newsItem['amt_feedimporter_guid'];
